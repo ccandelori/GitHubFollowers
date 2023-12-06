@@ -15,6 +15,8 @@
 		1033D23A2AF980ED0018DAF6 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1033D2382AF980ED0018DAF6 /* Follower.swift */; };
 		1033D23D2AF983E70018DAF6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1033D23C2AF983E70018DAF6 /* NetworkManager.swift */; };
 		107EF0A92B04770B00EA462E /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107EF0A82B04770B00EA462E /* ErrorMessage.swift */; };
+		10BDF3542B20CF4B00E5AA37 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF3532B20CF4B00E5AA37 /* FollowerCell.swift */; };
+		10BDF3562B20CFD700E5AA37 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF3552B20CFD700E5AA37 /* GFAvatarImageView.swift */; };
 		10C803712AEB25E7007D4CC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C803702AEB25E7007D4CC9 /* AppDelegate.swift */; };
 		10C803732AEB25E7007D4CC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C803722AEB25E7007D4CC9 /* SceneDelegate.swift */; };
 		10C8037A2AEB25E9007D4CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C803792AEB25E9007D4CC9 /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 		1033D2382AF980ED0018DAF6 /* Follower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		1033D23C2AF983E70018DAF6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		107EF0A82B04770B00EA462E /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ErrorMessage.swift; path = ../../../../../../ErrorMessage.swift; sourceTree = "<group>"; };
+		10BDF3532B20CF4B00E5AA37 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		10BDF3552B20CFD700E5AA37 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		10C8036D2AEB25E7007D4CC9 /* GitHubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C803702AEB25E7007D4CC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10C803722AEB25E7007D4CC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +89,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		10BDF3522B20CF2C00E5AA37 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				10BDF3532B20CF4B00E5AA37 /* FollowerCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		10C803642AEB25E7007D4CC9 = {
 			isa = PBXGroup;
 			children = (
@@ -129,11 +141,13 @@
 		10D00D552AF95E030001F84C /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				10BDF3522B20CF2C00E5AA37 /* Cells */,
 				10D00D502AF8539A0001F84C /* GFAlertVC.swift */,
 				102C71D72AF07BFA008D3699 /* GFButton.swift */,
 				102C71D92AF08730008D3699 /* GFTextField.swift */,
 				10D00D4C2AF851480001F84C /* GFTitleLabel.swift */,
 				10D00D4E2AF852A20001F84C /* GFBodyLabel.swift */,
+				10BDF3552B20CFD700E5AA37 /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -233,8 +247,10 @@
 				102C71D62AF074C8008D3699 /* FavoritesListVC.swift in Sources */,
 				102C71D82AF07BFA008D3699 /* GFButton.swift in Sources */,
 				102C71D42AF0749E008D3699 /* SearchVC.swift in Sources */,
+				10BDF3562B20CFD700E5AA37 /* GFAvatarImageView.swift in Sources */,
 				10D00D492AF843B70001F84C /* FollowerListVC.swift in Sources */,
 				10D00D512AF8539A0001F84C /* GFAlertVC.swift in Sources */,
+				10BDF3542B20CF4B00E5AA37 /* FollowerCell.swift in Sources */,
 				107EF0A92B04770B00EA462E /* ErrorMessage.swift in Sources */,
 				1033D23A2AF980ED0018DAF6 /* Follower.swift in Sources */,
 				10C803712AEB25E7007D4CC9 /* AppDelegate.swift in Sources */,
